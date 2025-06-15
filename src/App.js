@@ -15,27 +15,38 @@ import ProductMiniTask from './miniAssignment/ProductMiniTask/App'
 import ProductMiniTask_retest from './miniAssignment/ProductMiniTask_retest/App'
 
 import {useStore, actions} from './miniAssignment/Todo-context';
+import Button from './miniAssignment/TestClSX/Button'
 
-import Video from './video';
 function App() {
-  const videoRef = useRef();
-
-  const handlePlay = () => {
-    videoRef.current.play();
-  }
-
-  const handlePause = () => {
-    videoRef.current.pause();
-  }
-
   return (
-    <div className="App">
-      <Video ref = {videoRef}/>
-      <button onClick = {handlePlay}>Play</button>
-      <button onClick = {handlePause}>Pause</button>
+    <div className='App'>
+      <Button outline/>
     </div>
   )
 }
+
+// ------------------ Test clsx -------------------
+
+// import Video from './video';
+// function App() {
+//   const videoRef = useRef();
+
+//   const handlePlay = () => {
+//     videoRef.current.play();
+//   }
+
+//   const handlePause = () => {
+//     videoRef.current.pause();
+//   }
+
+//   return (
+//     <div className="App">
+//       <Video ref = {videoRef}/>
+//       <button onClick = {handlePlay}>Play</button>
+//       <button onClick = {handlePause}>Pause</button>
+//     </div>
+//   )
+// }
 
 // ------------------ Todo-context App -------------------
 

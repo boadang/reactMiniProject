@@ -1,0 +1,32 @@
+.btn {
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 1.2em;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: brown;
+}
+
+.primary {
+  background-color: blue;
+  color: white;
+}
+
+.outline {
+  background-color: transparent;
+  border: 1px solid blue;
+  color: blue;
+}
+
+.large {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+}
